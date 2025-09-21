@@ -43,7 +43,7 @@ const Navigation = () => {
               href="/apply"
               className="bg-primary text-white px-6 py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
             >
-              Apply to W25
+              Apply to F25
             </Link>
           </div>
 
@@ -90,7 +90,7 @@ const Navigation = () => {
                 className="block mx-3 mt-4 bg-primary text-white px-4 py-2 rounded-lg font-semibold text-center hover:bg-primary/90 transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Apply to W25
+                Apply to F25
               </Link>
             </div>
           </div>

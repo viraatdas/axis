@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Countdown from "@/components/Countdown";
 
 export default function Home() {
   return (
@@ -24,17 +25,22 @@ export default function Home() {
               underserved backgrounds to earn six figures before most peers finish college.
             </h1>
             
-            <p className="text-lg sm:text-xl text-muted mb-12 leading-relaxed">
+            <p className="text-lg sm:text-xl text-muted mb-8 leading-relaxed">
               Axis is a selective 8-week program that makes this transformation possible 
               through intensive coding education, mentorship, and lifelong community.
             </p>
+            
+            {/* Countdown Timer */}
+            <div className="mb-8">
+              <Countdown />
+            </div>
             
             <div className="flex flex-col sm:flex-row gap-6 items-start">
               <Link
                 href="/apply"
                 className="bg-primary text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-primary/90 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200"
               >
-                Apply for W25 Cohort
+                Apply for F25 Cohort
               </Link>
               
               <Link
@@ -46,7 +52,7 @@ export default function Home() {
             </div>
             
             <p className="text-muted mt-8 text-lg">
-              <span className="text-primary font-semibold">20 spots available</span> • Applications close soon
+              <span className="text-primary font-semibold">20 spots available</span> • F25 Cohort
             </p>
           </div>
         </div>
